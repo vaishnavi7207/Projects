@@ -58,3 +58,5 @@ search_term=search_term.replace("+"," ")
 # making pandas dataframe and getting csv file
 df=pd.DataFrame({"Product Name":Product_name,"Description":Description,"Prices(INR)":Prices,"Stars(Out of 5)":Reviews}) 
 df.to_csv(search_term+".csv") 
+
+#This code can be modified for extracting from different websites and may even fail to extract data due to changed policies of the respective websites.
